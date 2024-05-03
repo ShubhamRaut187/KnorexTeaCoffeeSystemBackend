@@ -1,0 +1,27 @@
+{
+  "name": "KnorexTeaCoffeeSystemBackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhamRaut187/KnorexTeaCoffeeSystemBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhamRaut187/KnorexTeaCoffeeSystemBackend/issues"
+  },
+  "homepage": "https://github.com/ShubhamRaut187/KnorexTeaCoffeeSystemBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  }
+}
