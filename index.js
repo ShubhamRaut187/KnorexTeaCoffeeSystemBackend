@@ -6,6 +6,7 @@ const {databaseConnection} = require('./Configs/db.js')
 
 const {userRouter} = require('./Routes/userRoutes.js');
 const {orderRouter} = require('./Routes/orderRoutes.js')
+const {authRouter} = require('./Routes/authRoutes.js')
 require('dotenv').config;
 
 const app = express();
@@ -21,7 +22,7 @@ app.get('/',(req,res)=>{
 })
 app.use('/user',userRouter);
 app.use('/order',orderRouter);
-
+app.use('/auth',authRouter);
 
 app.listen(process.env.PORT,async()=>{
     try {
